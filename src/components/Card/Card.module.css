@@ -5,7 +5,7 @@
     padding: 10px;
     margin: 0px auto;
 }
-img{
+.Cardimg{
     margin-bottom: 35px;
 }
 .cardText{
@@ -38,6 +38,6 @@ button{
     align-items: center;
 }
 .teamName{
-    margin-top: -37px;
+    margin-top: 3px;
     margin-left: 14px;
 }

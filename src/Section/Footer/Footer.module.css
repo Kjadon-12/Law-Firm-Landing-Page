@@ -3,4 +3,24 @@
     color: white;
     padding: 0% 8% ;
     padding-bottom: 7%;
+
+}
+.footerList{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pages{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
 }

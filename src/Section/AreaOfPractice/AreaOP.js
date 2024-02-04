@@ -16,33 +16,33 @@ const AreaOP = () => {
         <div className={`title ${styles.textA}`}>Area of Practices</div>
         <Grid container spacing={2}>
             <Grid item lg={8} sm={12}>
-             <img src={image1} alt='image1' ></img>
+             <img src={image1} alt='image1' className={styles.Cardimg} ></img>
              <div className={styles.imgText}>BUSINESS LAW</div>
             </Grid>
             <Grid item lg={4} sm={12}>
-            <img src={image2} alt='image1'></img>
+            <img src={image2} alt='image1' className={styles.Cardimg}></img>
             <div className={styles.imgText}>Partnership LAW</div>
             </Grid>
             
         </Grid>
         <Grid container spacing={2} className={styles.gridCont}>
             <Grid item lg={4} sm={12}>
-            <img src={image3} alt='image1' ></img>
+            <img src={image3} alt='image1' className={styles.Cardimg} ></img>
             <div className={styles.imgText}>REAL ESTATE LAW</div>
             </Grid>
             <Grid item lg={8} sm={12}>
-            <img src={image4} alt='image1' ></img>
+            <img src={image4} alt='image1'  className={styles.Cardimg}></img>
             <div className={styles.imgText}>BUSINESS LAW</div>
             </Grid>
             
         </Grid>
         <Grid container spacing={2} className={styles.gridCont} >
             <Grid item lg={8} sm={12}>
-            <img src={image5} alt='image1'></img>
+            <img src={image5} alt='image1' className={styles.Cardimg}></img>
             <div className={styles.imgText}>LANDLORD DISPUTES</div>
             </Grid>
             <Grid item lg={4} sm={12}>
-            <img src={image6} alt='image1'></img>
+            <img src={image6} alt='image1' className={styles.Cardimg}></img>
             <div className={styles.imgText}>ELDER ABUSE</div>
             </Grid>
             
