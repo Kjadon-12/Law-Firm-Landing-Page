@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: #2221216e;
+    color: white;
+    padding: 8%;
+}
+.textA{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.imgText{
+    color: white;
+    position: relative;
+    top: -92px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.gridCont{
+    margin-top: -56px!important;
+}

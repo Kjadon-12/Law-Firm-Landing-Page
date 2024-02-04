@@ -1,0 +1,13 @@
+/* Add these styles to your Carousel.module.css or any other CSS file */
+.carouselBtn {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 1; /* Ensure the buttons are above the swiper */
+  }
+  
+  
+  

@@ -1,0 +1,18 @@
+.wrapper{
+    background-color: #2221216e;
+    color: white;
+    padding: 5% 8%;
+}
+.cont{
+    line-height: 87px;
+    border-right: 1px solid white;
+}
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+}
+.textA{
+    text-align: center;
+    margin-bottom: 40px;
+}

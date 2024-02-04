@@ -1,0 +1,35 @@
+
+
+nav{
+    background-color: var(--color-background);
+    width: 1135px;
+    margin: 31px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNav{
+
+}
+ul{
+    width: 431px;
+    display: flex;
+    justify-content: space-between;
+}
+ul >li {
+    display: inline-block;
+    list-style: none;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+.BtnContact{
+    border: 2px solid white;
+    background-color: black;
+    color: var(--color-white);
+    width: 172px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 600;
+}

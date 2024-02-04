@@ -1,0 +1,30 @@
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 10%;
+}
+
+.heroContent > div:nth-child(1) {
+    font-size: 66px; 
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 97.37px;
+    
+  }
+  
+  
+  .heroContent > div:nth-child(2) {
+    margin-top: 16px;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    opacity: 30%;
+    width: 560px;
+  }
+  .heroContent > div:nth-child(3){
+    margin-top: 16px;
+  }
