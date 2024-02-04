@@ -9,3 +9,17 @@
     text-align: center;
     margin-bottom: 40px;
 }
+.teamItem{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* width: 344px!important; */
+    
+}
+.teamItem:hover{
+    background-color: #E3B748;
+    
+    transition: 0.8s ease-in;
+    cursor: pointer;
+}

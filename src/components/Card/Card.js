@@ -4,6 +4,7 @@ import gift from '../../assets/gift.svg'
 
 
 const Card = ({data , title, type , position}) => {
+    
   const getCard=(type)=>{
        switch(type) {
         case("choose"):{
@@ -35,9 +36,16 @@ const Card = ({data , title, type , position}) => {
             )
         }
         case("team"):{
+            const {name , cases , image} = data
             return(
                 <>
-                <div>team</div>
+                <div className={styles.team}>
+                    <img src={image} alt='team'/>
+                    <div className={styles.teamName}>
+                        <div>{name}</div>
+                        <div>{cases } Case</div>
+                    </div>
+                </div>
                 </>
             )
         }

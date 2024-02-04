@@ -5,6 +5,9 @@ import About from "./Section/About/About";
 import AreaOP from "./Section/AreaOfPractice/AreaOP";
 import Review from "./Section/Review/Review";
 import Team from "./Section/Team/Team";
+import Faq from "./Section/Faq/Faq";
+import NewsletterForm from "./Section/NewsletterForm/NewsletterForm";
+import Footer from "./Section/Footer/Footer";
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
      <AreaOP/>
      <Review/>
      <Team/>
+     <Faq/>
+     <NewsletterForm/>
+     <Footer/>
     </div>
   );
 }

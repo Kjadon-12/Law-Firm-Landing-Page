@@ -33,3 +33,11 @@ button{
     line-height: 24px;
     margin-top: 13px;
 }
+.team{
+    display: flex;
+    align-items: center;
+}
+.teamName{
+    margin-top: -37px;
+    margin-left: 14px;
+}

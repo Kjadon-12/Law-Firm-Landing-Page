@@ -1,0 +1,23 @@
+.wrapper{
+    background-color: #2221216e;
+    color: white;
+    padding: 0% 4% ;
+    padding-bottom: 9%;
+    /* margin-bottom: 9%; */
+}
+.container{
+    width: 99%;
+    margin: 0 auto;
+    background-color: #5250506e;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: 500;
+}
+.newaletterInput{
+    padding: 9px;
+    margin-right: 1px;
+}
