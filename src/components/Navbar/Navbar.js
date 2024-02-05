@@ -1,14 +1,14 @@
 import React from 'react'
 import logo from '../../assets/logo.svg';
 import styles from './Navbar.module.css'
-
+import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   
   return (
     <>
     <nav className={styles.mainNav}>
-     <img src={logo} alt='logo'></img>
-      <div>
+     <img src={logo} alt='logo' className={styles.logo}></img>
+      <div className={styles.menuLink}>
         <ul>
           <li>Home</li>
           <li>Attorneys</li>

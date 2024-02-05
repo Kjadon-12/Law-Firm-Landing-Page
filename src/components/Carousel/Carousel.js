@@ -32,6 +32,18 @@ const Carousel = ({ data }) => {
           </div>
         );
       };
+      const breakpoints = {
+        576: {
+          slidesPerView: 1, 
+        },
+        900: {
+          slidesPerView: 3, 
+        },
+        
+        2460: {
+          slidesPerView: 3, 
+        },
+      };
       
   return (
     <>
@@ -39,10 +51,10 @@ const Carousel = ({ data }) => {
         spaceBetween={23}
         initialSlide={0}
         modules={{ Navigation }}
-        slidesPerView={3}
-        slidesPerGroup={3}
+        // slidesPerView={3}
+        // slidesPerGroup={3}
         allowTouchMove
-       
+       breakpoints={breakpoints}
         onSwiper={(swiper) => console.log(swiper)}
       >
        <div className={styles.carouselBtn}>
