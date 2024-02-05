@@ -36,6 +36,15 @@
     margin-top: 16px;
   }
 
+
+
+  .heroInput{
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+    margin-right: 2px;
+  }
+
   @media (max-width: 520px) {
     .heroImg{
       width: -webkit-fill-available;

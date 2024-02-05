@@ -14,3 +14,33 @@
     line-height: 29px;
     opacity: 30%;
 }
+.accordionBody{
+    border-bottom: 2px solid rgb(209, 200, 200)!important;
+    margin-bottom: 15px;
+}
+.accoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.accordionText{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    opacity: 30%;
+    margin-top: 20px;
+    padding-bottom: 2px;
+}
+.accordionTitle{
+    font-size: 24px!important;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.customAccordion {
+    background-color: #2221216e!important;
+    color: white!important;
+  }
+  

@@ -14,7 +14,7 @@ const HeroSection = () => {
           <div className={styles.heroContent}>
           <div>You don’t have to <br/> Fight them Alone.</div>
           <div>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.</div>
-          <div><input></input></div>
+          <div className={styles.heroForm}><form><input placeholder='Enter your email address' className={styles.heroInput}></input><button>Lets's talk</button></form></div>
           </div>
         </Grid>
         <Grid item lg={5} xs={12}>

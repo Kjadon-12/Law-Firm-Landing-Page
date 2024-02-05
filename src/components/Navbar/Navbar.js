@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.svg';
 import styles from './Navbar.module.css'
-import { GiHamburgerMenu } from "react-icons/gi";
+
 const Navbar = () => {
   
   return (
