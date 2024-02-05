@@ -35,4 +35,9 @@ ul >li {
 }
 
 
-
+@media (max-width:956px){
+    .menuLink{
+        display: none;
+        
+    }
+}
