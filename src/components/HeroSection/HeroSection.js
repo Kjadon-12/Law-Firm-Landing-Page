@@ -7,7 +7,8 @@ import styles from './HeroSection.module.css'
 const HeroSection = () => {
   return (
     <>
-     <Box sx={{width: '1135px' , marginX: 'auto' , paddingY: '5%'}} >
+    <div className={styles.wrapper}>
+     <Box className="container"  >
       <Grid container spacing={5}>
         <Grid item lg={7} xs={12}>
           <div className={styles.heroContent}>
@@ -18,13 +19,13 @@ const HeroSection = () => {
         </Grid>
         <Grid item lg={5} xs={12}>
           
-            <img src={HeroImg} alt='hero'></img>
+            <img src={HeroImg} alt='hero' className={styles.heroImg}></img>
         
         </Grid>
         
       </Grid>
     </Box>
-    
+    </div>
     </>
   )
 }

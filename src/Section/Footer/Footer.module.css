@@ -24,3 +24,15 @@
     flex-wrap: nowrap;
     gap: 6px;
 }
+@media (max-width:676px){
+    .footerList{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .pages{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }   
+}

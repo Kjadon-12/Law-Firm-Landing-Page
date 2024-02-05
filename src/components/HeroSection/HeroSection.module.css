@@ -1,3 +1,9 @@
+.wrapper{
+  /* background-color: #2221216e; */
+  color: white;
+  padding: 5% 8%;
+}
+
 .heroContent {
     display: flex;
     flex-direction: column;
@@ -5,6 +11,7 @@
     justify-content: center;
     margin-top: 40px;
     padding-bottom: 10%;
+    flex-wrap: wrap;
 }
 
 .heroContent > div:nth-child(1) {
@@ -27,4 +34,21 @@
   }
   .heroContent > div:nth-child(3){
     margin-top: 16px;
+  }
+
+  @media (max-width: 520px) {
+    .heroImg{
+      width: -webkit-fill-available;
+    }
+    
+    
+    .heroContent > div:nth-child(2) {
+      margin-top: 16px;
+      color: var(--color-white);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 29.25px;
+      opacity: 30%;
+      width: 100%;
+    }
   }

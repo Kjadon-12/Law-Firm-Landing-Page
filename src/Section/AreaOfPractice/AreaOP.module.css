@@ -23,3 +23,10 @@
 .gridCont{
     margin-top: -56px!important;
 }
+@media (max-width: 768px){
+    .Cardimg{
+        width: 100%;
+        /* width: -webkit-fill-available; */
+    }
+    
+}

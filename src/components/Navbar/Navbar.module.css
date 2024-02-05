@@ -2,7 +2,7 @@
 
 nav{
     background-color: var(--color-background);
-    width: 1135px;
+    padding: 0 8%;
     margin: 31px auto;
     display: flex;
     justify-content: space-between;
